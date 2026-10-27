@@ -29,10 +29,10 @@ Welcome to the Git Workflow Demo!
 Project: Git Workflow and Project Baseline
 Status: Ready to build and collaborate.
 
-Git Workflow
-
 1. Create a repository.
 2. Add project files.
 3. Commit changes.
 4. Create branches for new features.
 5. Review changes and merge them when appropriate.
+## Author
+Created as part of the Git Workflow and Project Baseline task.
