@@ -1,5 +1,4 @@
-
- name: CI Pipeline
+name: CI Pipeline
 
 on:
   push:
@@ -10,13 +9,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Verify project files
-        run: |
-          echo "CI Pipeline is running"
-          ls -la
-#CI woekflow test.
+      - name: Test pipeline
+        run: echo "CI Pipeline executed successfully!"
